@@ -1,6 +1,6 @@
 # Referensi & Lisensi 📚
 
-## Sumber Referensi
+## Daftar Sumber
 
 - [AOSP — Telephony Specs (Android)](https://source.android.com/docs/core/connect/telephony)
 - [Android Dialer Codes (GitHub)](https://github.com/traviszech/Android-Dialer-Codes)
@@ -12,10 +12,10 @@
 
 ## Kontribusi 🤝
 
-Pull request dan koreksi sangat welcome! Kalau nambahin kode baru, sertain **merek + model + versi OS + operator + kode + hasilnya** biar akurat.
+Pull request dan koreksi sangat diharapkan! Jika menambahkan kode baru, harap sertakan **merek + model + versi OS + operator + kode + hasilnya** agar tetap akurat.
 
 ## Lisensi 📜
 
-Dokumentasi ini **MIT / CC-BY 4.0** — bebas pakai, modifikasi, dan sebar ulang buat komersial maupun non-komersial. Lihat [LICENSE](../LICENSE).
+Dokumentasi ini berlisensi **MIT / CC-BY 4.0** — bebas digunakan, dimodifikasi, dan disebarluaskan untuk keperluan komersial maupun non-komersial. Lihat [LICENSE](../LICENSE).
 
 [← Troubleshooting](04-troubleshooting-keamanan.md) | [🏠 Beranda](../README.md)

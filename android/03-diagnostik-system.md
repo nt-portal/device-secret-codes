@@ -1,15 +1,15 @@
-# Diagnostik System Android 🔍
+# Diagnostik Sistem Android 🔍
 
-Buat ngintip apa yang lagi jalan di belakang layar — notifikasi push, statistik pemakaian, sampai cek update.
+Untuk melihat apa yang berjalan di latar belakang — mulai dari notifikasi push, statistik pemakaian, hingga pemeriksaan pembaruan sistem.
 
-| Kode | Fungsinya | Keterangan |
+| Kode | Fungsi | Keterangan |
 |---|---|---|
-| `*#*#4636#*#*` | Menu testing utama | Info telepon, baterai, usage stats, info Wi-Fi |
+| `*#*#4636#*#*` | Menu testing utama | Informasi telepon, baterai, usage stats, informasi Wi-Fi |
 | `*#*#426#*#*` | FCM event log | Log connect/disconnect notifikasi |
 | `*#*#225#*#*` | Kalender | Sinkronisasi event kalender |
-| `*#*#8255#*#*` | GTalk monitor | Legacy — cuma ada di Android lama |
-| `*#*#2432546#*#*` | Check-in OTA | Maksa cek update OS ke server Google |
+| `*#*#8255#*#*` | GTalk monitor | Legacy — hanya tersedia di Android versi lama |
+| `*#*#2432546#*#*` | Check-in OTA | Memaksa pemeriksaan pembaruan OS ke server Google |
 
-**Yang paling sering kepake:** `*#*#4636#*#*` — di dalamnya ada Phone Info 1/2 (buat atur network type, radio on/off, liat dBm), Usage Statistics, sama Wi-Fi Information. Cocok buat yang sinyalnya naik-turun.
+**Yang paling sering digunakan:** `*#*#4636#*#*` — di dalamnya terdapat Phone Info 1/2 (untuk mengatur network type, radio on/off, melihat dBm), Usage Statistics, dan Wi-Fi Information. Sangat berguna ketika sinyal tidak stabil.
 
-[← Info Perangkat](02-informasi-perangkat.md) | [Lanjut ke Tes Hardware →](04-tes-hardware.md)
+[← Informasi Perangkat](02-informasi-perangkat.md) | [Lanjut ke Tes Hardware →](04-tes-hardware.md)

@@ -1,36 +1,36 @@
-# Kode USSD / MMI Universal — Jalan di Semua HP 🌍
+# Kode USSD / MMI Universal — Berlaku di Semua HP 🌍
 
-> Diproses sama jaringan operator GSM/4G/5G — jadi mau pakai Android, iPhone, HarmonyOS, atau Nokia jadul, semuanya bisa. Jangan lupa **tap Panggil** setelah ketik.
+> Diproses oleh jaringan operator GSM/4G/5G — sehingga dapat digunakan di Android, iPhone, HarmonyOS, maupun Nokia feature phone. Jangan lupa **ketuk Panggil** setelah mengetik kode.
 
 ## Pengalihan Panggilan (Call Forwarding)
 
-| Kode | Fungsinya | Keterangan |
+| Kode | Fungsi | Keterangan |
 |---|---|---|
-| `*#21#` | Cek pengalihan semua panggilan | Yang unconditional — berdering pun langsung diteruskan |
-| `*#61#` | Cek “nggak dijawab” | Diteruskan kalau nggak diangkat ~20–30 detik |
-| `*#62#` | Cek “nggak terjangkau / HP mati” | Diteruskan pas HP mati atau nggak ada sinyal |
-| `*#67#` | Cek “sibuk” | Diteruskan kalau kamu tolak atau lagi sibuk |
-| `*#004#` | Cek semua pengalihan bersyarat | Sekaligus `*#61#` + `*#62#` + `*#67#` |
-| `*#002#` | Cek semua pengalihan |  |
-| `##002#` | **Hapus semua pengalihan** | Reset langsung di server operator |
-| `##61#` / `##62#` / `##67#` | Hapus per kondisi |  |
+| `*#21#` | Memeriksa pengalihan semua panggilan | Unconditional — panggilan langsung diteruskan tanpa berdering |
+| `*#61#` | Memeriksa “tidak dijawab” | Diteruskan jika tidak diangkat sekitar 20–30 detik |
+| `*#62#` | Memeriksa “tidak terjangkau / HP mati” | Diteruskan saat HP mati atau tidak ada sinyal |
+| `*#67#` | Memeriksa “sibuk” | Diteruskan saat Anda menolak atau sedang sibuk |
+| `*#004#` | Memeriksa semua pengalihan bersyarat | Sekaligus `*#61#` + `*#62#` + `*#67#` |
+| `*#002#` | Memeriksa semua pengalihan |  |
+| `##002#` | **Menghapus semua pengalihan** | Reset langsung di server operator |
+| `##61#` / `##62#` / `##67#` | Menghapus per kondisi |  |
 
 ## Call Waiting & Sembunyikan Nomor (CLIR)
 
-| Kode | Fungsinya |
+| Kode | Fungsi |
 |---|---|
-| `*#43#` | Cek call waiting |
-| `*43#` / `#43#` | Aktifin / matiin call waiting |
-| `*#31#` | Cek status sembunyikan nomor |
-| `*31#` / `#31#` | Aktifin / matiin sembunyikan nomor permanen |
-| `*31#<nomor>` | Nelpon sekali dengan nomor kesembunyi |
-| `#31#<nomor>` | Nelpon sekali dengan nomor kelihatan |
+| `*#43#` | Memeriksa call waiting |
+| `*43#` / `#43#` | Mengaktifkan / menonaktifkan call waiting |
+| `*#31#` | Memeriksa status sembunyikan nomor |
+| `*31#` / `#31#` | Mengaktifkan / menonaktifkan sembunyikan nomor permanen |
+| `*31#<nomor>` | Menelpon sekali dengan nomor tersembunyi |
+| `#31#<nomor>` | Menelpon sekali dengan nomor terlihat |
 
 ## Identitas & Jaringan
 
-| Kode | Fungsinya | Catatan |
+| Kode | Fungsi | Catatan |
 |---|---|---|
-| `*#06#` | IMEI | Jalan di semua HP, tanpa SIM pun bisa |
+| `*#06#` | IMEI | Berfungsi di semua HP, bahkan tanpa kartu SIM |
 | `*#07#` | SAR / regulasi |  |
 | `*3001#12345#*` | Field Test (iOS) | → [ios/02-field-test-mode.md](../ios/02-field-test-mode.md) |
 | `*#*#4636#*#*` | Phone Info (Android) | → [android/05-jaringan-seluler.md](../android/05-jaringan-seluler.md) |

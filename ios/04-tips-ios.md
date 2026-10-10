@@ -1,28 +1,28 @@
 # Tips iOS Tanpa Kode Dial 💡
 
-> Karena di iOS kodenya dikit banget, mending manfaatin menu resmi Apple — lebih aman dan lengkap kok.
+> Karena kode di iOS sangat terbatas, sebaiknya manfaatkan menu resmi Apple — lebih aman dan informasinya lebih lengkap.
 
-## Cek Info Tanpa Kode
+## Memeriksa Informasi Tanpa Kode
 
-| Mau cek... | Bukanya di... |
+| Ingin memeriksa... | Buka di... |
 |---|---|
 | IMEI, serial, EID, modem firmware | Settings → General → About |
-| SAR & regulasi | Settings → General → Legal & Regulatory |
+| SAR dan regulasi | Settings → General → Legal & Regulatory |
 | Kesehatan baterai & cycle (iOS 17+) | Settings → Battery → Battery Health & Charging |
-| Info sinyal & operator, ICCID | Settings → General → About |
-| Versi carrier settings | Settings → General → About → tap Carrier |
+| Informasi sinyal & operator, ICCID | Settings → General → About |
+| Versi carrier settings | Settings → General → About → ketuk Carrier |
 
 ## Diagnostik Hardware
 
-- **Apple Diagnostics (remote):** Hubungin Apple Support, nanti mereka kirimin link diagnostik ke iPhone kamu.
-- **Cek log crash:** Settings → Privacy & Security → Analytics → cari log `panic-*`.
-- **Sinyal:** Pakai Field Test `*3001#12345#*` → [02-field-test-mode.md](02-field-test-mode.md)
+- **Apple Diagnostics (remote):** Hubungi Apple Support, mereka akan mengirimkan tautan diagnostik ke iPhone Anda.
+- **Memeriksa log crash:** Settings → Privacy & Security → Analytics → cari log `panic-*`.
+- **Pemeriksaan sinyal:** Gunakan Field Test `*3001#12345#*` → [02-field-test-mode.md](02-field-test-mode.md)
 
-## Kalau Kode MMI Invalid
+## Jika Kode MMI Tidak Valid
 
-1. Update iOS dulu (Settings → General → Software Update).
-2. Aktifin Airplane Mode 5 detik, matiin lagi.
-3. Coba SIM lain atau eSIM.
-4. Reset Network Settings: Settings → General → Transfer or Reset → Reset → Reset Network Settings (Wi-Fi password bakal kehapus).
+1. Perbarui iOS terlebih dahulu (Settings → General → Software Update).
+2. Aktifkan Airplane Mode selama 5 detik, lalu nonaktifkan kembali.
+3. Coba kartu SIM lain atau eSIM.
+4. Reset Network Settings: Settings → General → Transfer or Reset → Reset → Reset Network Settings (password Wi-Fi akan terhapus).
 
 [← Kode Lainnya](03-kode-iphone-lainnya.md) | [Ke Umum →](../umum/README.md) | [🏠 Beranda](../README.md)

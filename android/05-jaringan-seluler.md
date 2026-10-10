@@ -1,21 +1,21 @@
 # Jaringan Seluler Android 📶
 
-Buat yang sinyalnya sering hilang atau mau ngunci ke 4G/5G only — ini tempatnya.
+Untuk Anda yang sering mengalami sinyal hilang atau ingin mengunci jaringan ke 4G/5G only — bagian ini akan sangat membantu.
 
-| Kode | Fungsinya | Keterangan |
+| Kode | Fungsi | Keterangan |
 |---|---|---|
-| `*#*#4636#*#*` | Preferred network type | Bisa ubah ke `LTE Only` / `NR Only` |
-| `*#0011#` | ServiceMode (Samsung) | Liat band aktif, RSRP/SINR, CA |
-| `*#2263#` | Band selection (Samsung) | Kunci B1/B3/B8/B40 |
-| `*#*#86583#*#*` | VoLTE toggle (Xiaomi) | Bypass cek operator |
-| `*#*#869434#*#*` | VoWiFi toggle (Xiaomi) | Bypass cek operator |
+| `*#*#4636#*#*` | Preferred network type | Dapat diubah ke `LTE Only` / `NR Only` |
+| `*#0011#` | ServiceMode (Samsung) | Melihat band aktif, RSRP/SINR, CA |
+| `*#2263#` | Band selection (Samsung) | Mengunci B1/B3/B8/B40 |
+| `*#*#86583#*#*` | VoLTE toggle (Xiaomi) | Bypass pemeriksaan operator |
+| `*#*#869434#*#*` | VoWiFi toggle (Xiaomi) | Bypass pemeriksaan operator |
 | `*#*#3646633#*#*` | EngineerMode (MediaTek) | Khusus chipset Helio/Dimensity |
 
-> Hati-hati ya, kalau salah kunci band bisa-bisa sinyal malah hilang total.
+> Perlu diperhatikan: kesalahan dalam mengunci band dapat menyebabkan sinyal hilang total.
 
-**Cara kunci LTE Only:**
+**Cara mengunci LTE Only:**
 Ketik `*#*#4636#*#*` → Phone Info 1/2 → Set Preferred Network Type → pilih `LTE Only`.
 
-> Catatan: kalau kartu kamu belum support VoLTE, pas LTE Only nanti nggak bisa nerima telpon biasa.
+> Catatan: Jika kartu Anda belum mendukung VoLTE, pengaturan LTE Only akan membuat Anda tidak dapat menerima panggilan biasa.
 
 [← Tes Hardware](04-tes-hardware.md) | [Lanjut ke Pengalihan →](06-pengalihan-panggilan.md)
