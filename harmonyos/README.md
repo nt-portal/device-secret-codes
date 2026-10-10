@@ -1,9 +1,9 @@
-# HarmonyOS / Huawei EMUI — Secret Codes
+# HarmonyOS / Huawei EMUI 📱
 
-> Huawei pakai EMUI & HarmonyOS (2.0–4.x NEXT). Banyak kode Android standar masih jalan, ditambah **ProjectMenu** khas Huawei.
+> Buat pengguna Huawei — baik yang masih EMUI maupun yang udah HarmonyOS 2.0 sampai 4.x NEXT. Banyak kode Android standar yang masih jalan, ditambah **ProjectMenu** andalannya Huawei.
 
-| # | File | Isi |
-|---|------|-----|
-| 01 | [Kode HarmonyOS](01-harmonyos-codes.md) | ProjectMenu, battery, network, vendor info |
+| No | File | Bahas apa |
+|---|------|-----------|
+| 01 | [Kode HarmonyOS](01-harmonyos-codes.md) | ProjectMenu, info baterai, jaringan, vendor |
 
-[← Beranda](../README.md) | [→ Android](../android/README.md) | [→ Umum](../umum/README.md)
+[← Beranda](../README.md) | [Ke Android →](../android/README.md) | [Ke Umum →](../umum/README.md)

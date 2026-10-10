@@ -1,32 +1,26 @@
-# HarmonyOS / Huawei EMUI — Kode Lengkap + Contoh
+# Kode HarmonyOS / Huawei EMUI 🔧
 
-> Jalan di Huawei P/Mate/Nova + Honor lama (EMUI) & HarmonyOS NEXT. Butuh **Phone bawaan Huawei**.
+> Berlaku buat Huawei P/Mate/Nova dan Honor lama (EMUI) sampai HarmonyOS NEXT. Pakai **Phone bawaan Huawei** ya.
 
 ## Cara Pakai
 
-Phone → Keypad → ketik → auto / tap Panggil. Jika tidak jalan → HarmonyOS 3+ kadang disable kode third-party dialer.
+Phone → Keypad → ketik kodenya → otomatis kebuka atau tap Panggil. Kalau nggak jalan di HarmonyOS 3+, coba pakai dialer bawaan jangan yang pihak ketiga.
 
-## Kode Huawei / HarmonyOS
+## Kode Khas Huawei / HarmonyOS
 
-| Kode | Fungsi | Contoh / Manfaat |
+| Kode | Fungsinya | Contoh & manfaatnya |
 |---|---|---|
-| `*#*#2846579#*#*` | **ProjectMenu** (menu utama Huawei) | **Paling penting.** Buka → *Background Settings → Battery / Network Information Query / Veneer Info / Software Upgrade*. Cek battery health tanpa bongkar. |
-| `*#*#1357946#*#*` | SN & Product ID | Untuk unlock bootloader/service. **Contoh:** catat SN untuk klaim garansi Huawei. |
-| `*#06#` | IMEI | Universal — cek Kemenperin. |
-| `*#07#` | SAR / regulasi | |
-| `*#*#6130#*#*` | Testing (varian) | Network info (beberapa EMUI). |
-| `*#*#2846579159#*#*` | ProjectMenu extended (varian) | |
-| `*#*#0000#*#*` | About / version (varian) | Versi HarmonyOS & patch. |
+| `*#*#2846579#*#*` | **ProjectMenu** (menu utamanya Huawei) | Ini yang paling penting. Di dalamnya ada Battery, Network Information Query, Veneer Info, Software Upgrade — bisa cek kesehatan baterai tanpa bongkar. |
+| `*#*#1357946#*#*` | SN & Product ID | Buat unlock bootloader/service. Contoh: catat SN buat klaim garansi. |
+| `*#06#` | IMEI | Universal — buat cek Kemenperin. |
+| `*#07#` | SAR / regulasi |  |
+| `*#*#6130#*#*` | Testing (varian) | Info jaringan di beberapa EMUI. |
+| `*#*#0000#*#*` | About / version | Liat versi HarmonyOS & patch. |
 
-## Universal (juga jalan di HarmonyOS)
+## Yang Universal (Jalan Juga di HarmonyOS)
 
-` *#21#` `##002#` `*#43#` `*#31#` `*3001#12345#*` (Field Test tidak ada di Huawei — pakai ProjectMenu → Network Info).
+` *#21#` `##002#` `*#43#` `*#31#` — semuanya jalan karena diproses operator, bukan OS. Detailnya di [umum/01-kode-ussd-mmi-universal.md](../umum/01-kode-ussd-mmi-universal.md).
 
-→ Detail universal: [umum/01-kode-ussd-mmi-universal.md](../umum/01-kode-ussd-mmi-universal.md)
-
-## Tips HarmonyOS
-
-- HarmonyOS NEXT (5.0+) makin tertutup — ProjectMenu mungkin butuh **Settings → About phone → tap Version 7x** untuk enable developer.
-- Alternatif tanpa kode: **Settings → About phone / Battery → Battery health**.
+> Catatan: HarmonyOS NEXT makin tertutup — kadang ProjectMenu butuh aktifin developer dulu via Settings → About phone → tap Version 7x. Alternatif tanpa kode: Settings → About phone / Battery → Battery health.
 
 [← harmonyos/README](README.md) | [🏠 Beranda](../README.md)

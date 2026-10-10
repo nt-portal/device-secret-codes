@@ -1,18 +1,18 @@
-# Android — Kode Tes Hardware
+# Tes Hardware Android 🛠️
 
-> Paling berguna saat beli HP bekas.
+Ini bagian favorit kalau mau beli HP bekas — bisa ngecek semua komponen fisik tanpa bongkar.
 
-| Kode | Komponen | Cara tes |
+| Kode | Komponen | Cara ngetesnya |
 |---|---|---|
-| `*#*#2664#*#*` | Touchscreen | Usap seluruh layar, cari dead spot |
-| `*#*#2663#*#*` | Touch FW | Versi IC touch |
-| `*#*#0842#*#*` | Vibrator & backlight | Getar + kecerahan |
+| `*#*#2664#*#*` | Touchscreen | Usap seluruh layar, cari yang nggak responsif |
+| `*#*#2663#*#*` | Firmware touch | Liat versi IC touch |
+| `*#*#0842#*#*` | Getar & backlight | Cek getarnya sama kecerahan layar |
 | `*#*#0673#*#*` / `*#*#0289#*#*` | Speaker | Putar nada uji |
-| `*#*#0283#*#*` | Audio loopback | Mic → earpiece langsung |
-| `*#*#0588#*#*` | Proximity | Tutup earpiece, layar harus mati |
-| `*#*#232339#*#*` | Wi-Fi | Tx/Rx test |
-| `*#*#232331#*#*` | Bluetooth | Radio test |
-| `*#*#1575#*#*` | GPS | GPS lock / satellite |
-| `*#*#34971539#*#*` | Kamera FW | Vendor sensor (IMX / ISOCELL) |
+| `*#*#0283#*#*` | Audio loopback | Suara dari mic langsung ke earpiece |
+| `*#*#0588#*#*` | Proximity sensor | Tutup bagian earpiece, layar harusnya mati |
+| `*#*#232339#*#*` | Wi-Fi | Tes Tx/Rx |
+| `*#*#232331#*#*` | Bluetooth | Tes radio Bluetooth |
+| `*#*#1575#*#*` | GPS | Tes kunci satelit |
+| `*#*#34971539#*#*` | Firmware kamera | Liat vendor sensor (IMX / ISOCELL) |
 
-[← 03 Diagnostik](03-diagnostik-system.md) | [→ 05 Jaringan Seluler](05-jaringan-seluler.md)
+[← Diagnostik](03-diagnostik-system.md) | [Lanjut ke Jaringan →](05-jaringan-seluler.md)

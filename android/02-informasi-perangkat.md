@@ -1,17 +1,19 @@
-# Android — Kode Informasi Perangkat
+# Info Perangkat Android ℹ️
 
-| Kode | Fungsi | Contoh / Output |
+Mau tau IMEI, alamat MAC, versi build, sampai tipe RAM yang kepasang? Semua bisa dicek lewat kode-kode ini.
+
+| Kode | Buat cek apa | Contoh & gunanya |
 |---|---|---|
-| `*#06#` | IMEI & S/N | `IMEI 1: 86452...`, samakan dengan dusbook & Bea Cukai |
-| `*#07#` | Regulasi & SAR | Nilai radiasi yang diizinkan |
-| `*#*#4636#*#*` | Phone / Usage Info | Info baterai, statistik app, info Wi-Fi |
-| `*#*#225#*#*` | Calendar sync | Jumlah event & akun sinkron |
-| `*#*#426#*#*` | FCM Diagnostics | Status push notification Google |
-| `*#*#44336#*#*` | Build Version | Build date & changelist |
-| `*#*#1111#*#*` | FTA Software | Versi software FTA |
+| `*#06#` | IMEI & serial number | Nongol `IMEI 1: 86452...` — cocok buat samain sama dusbook atau cek Bea Cukai |
+| `*#07#` | Regulasi & SAR | Liat batas radiasi HP |
+| `*#*#4636#*#*` | Info telepon & usage | Baterai, statistik aplikasi, info Wi-Fi |
+| `*#*#225#*#*` | Sinkronisasi kalender | Jumlah event & akun yang nyambung |
+| `*#*#426#*#*` | Diagnostik FCM | Status push notification Google |
+| `*#*#44336#*#*` | Build version | Tanggal build & changelist firmware |
+| `*#*#1111#*#*` | FTA Software | Versi software field test |
 | `*#*#2222#*#*` | FTA Hardware | Revisi motherboard |
-| `*#*#3264#*#*` | RAM Version | Tipe & versi RAM |
-| `*#*#232338#*#*` | MAC Wi-Fi | `00:0a:95:...` — untuk MAC filtering router |
-| `*#*#232337#*#*` | BD_ADDR Bluetooth | Alamat Bluetooth |
+| `*#*#3264#*#*` | Versi RAM | Tipe & versi RAM |
+| `*#*#232338#*#*` | MAC Wi-Fi | Kayak `00:0a:95:...` — kepake buat MAC filtering di router |
+| `*#*#232337#*#*` | Alamat Bluetooth | Alamat unik Bluetooth HP |
 
-[← 01 Cara Menggunakan](01-cara-menggunakan.md) | [→ 03 Diagnostik System](03-diagnostik-system.md)
+[← Cara Menggunakan](01-cara-menggunakan.md) | [Lanjut ke Diagnostik →](03-diagnostik-system.md)

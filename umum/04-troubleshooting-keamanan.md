@@ -1,20 +1,20 @@
-# Umum — Troubleshooting & Keamanan (Semua HP)
+# Troubleshooting & Keamanan — Semua HP 🔧🔒
 
-## Kode Tidak Merespon
+## Kalau Kode Nggak Jalan
 
-| Gejala | Penyebab | Solusi |
+| Gejalanya | Penyebabnya | Solusinya |
 |---|---|---|
-| Ketik kode terakhir tidak muncul apa-apa | Bukan dialer bawaan / diblokir vendor (Android 12+ / iOS) | Android: pakai **Phone bawaan** / app *Force LTE Only*; iPhone: update iOS |
-| `Connection problem / MMI invalid` | Sinyal lemah / salah ketik `*`/`#` | Airplane 5 dtk → coba lagi; cek penulisan |
-| `*#*#4636#*#*` tidak buka | Google/vendor disable | Shortcut app — lihat [android/01-cara-menggunakan.md](../android/01-cara-menggunakan.md) |
-| Field Test tidak buka (iPhone/HarmonyOS) | iOS/EMUI lama | Update OS |
-| `*#0*#` tidak jalan (Samsung/Feature Phone) | Region/Go firmware disable | Samsung Members → Diagnostics; Nokia: `*#0000#` cek model |
+| Ketik kode terakhir nggak muncul apa-apa | Bukan dialer bawaan / diblokir vendor (Android 12+ / iOS) | Pakai **Phone bawaan**; di Android coba *Activity Launcher / Force LTE Only* |
+| `Connection problem / MMI invalid` | Sinyal lemah / salah ketik `*`/`#` | Airplane mode 5 detik → coba lagi; cek penulisan |
+| `*#*#4636#*#*` nggak kebuka | Google/vendor di-disable | Pakai app shortcut — lihat [android/01-cara-menggunakan.md](../android/01-cara-menggunakan.md) |
+| Field Test nggak kebuka (iPhone/HarmonyOS) | iOS/EMUI lama | Update OS-nya dulu |
+| `*#0*#` nggak jalan (Samsung) | Region/Go firmware | Pakai Samsung Members → Diagnostics |
 
-## Keamanan & Privasi (Semua HP — Super Penting)
+## Keamanan & Privasi — Penting Banget!
 
-- **Jangan sebar IMEI** (`*#06#`) — rawan kloning. Cek resmi Kemenperin/bea cukai saja.
-- **Jangan ketik kode dari orang asing** — `**21*08xxxx#` = aktifkan alihan ke penipu! Verifikasi `*#21#`.
-- Alihan ke **voicemail operator** = normal, bukan sadap.
-- Backup sebelum otak-atik reset: Android `*#*#7780#*#*`, Nokia `*#7370#`, iOS Reset Network Settings.
+- **Jangan sebar IMEI** (`*#06#`) di medsos — rawan dikloning.
+- **Jangan asal ketik kode dari orang asing** — `**21*08xxxx#` itu ngaktifin pengalihan ke penipu! Verifikasi dulu pakai `*#21#`.
+- Pengalihan ke **voicemail operator** itu normal, bukan disadap.
+- Backup dulu sebelum otak-atik reset — entah `*#*#7780#*#*` (Android), `*#7370#` (Nokia), atau Reset Network Settings (iOS).
 
-[← 03 Tips Menghafal](03-tips-mengingat-kode.md) | [→ 05 Referensi](05-referensi.md)
+[← Tips Menghafal](03-tips-mengingat-kode.md) | [Lanjut ke Referensi →](05-referensi.md)

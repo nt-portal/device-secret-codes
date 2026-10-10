@@ -1,19 +1,19 @@
-# Android — Pengalihan Panggilan (Call Forwarding)
+# Pengalihan Panggilan Android 📞
 
-> Diproses operator — wajib tekan **Panggil**.
+Semua kode di sini diproses sama operator, jadi jangan lupa tekan **Panggil** setelah ketik.
 
-| Kode | Fungsi |
+| Kode | Fungsinya |
 |---|---|
-| `*#21#` | Cek alihan semua panggilan (unconditional) |
-| `*#61#` | Cek alihan “tidak dijawab” |
-| `*#62#` | Cek alihan “tidak terjangkau / HP mati” |
-| `*#67#` | Cek alihan “sibuk” |
-| `*#004#` | Cek semua alihan bersyarat |
-| `*#002#` | Cek semua alihan |
-| `##002#` | **Hapus semua alihan** |
+| `*#21#` | Cek pengalihan semua panggilan |
+| `*#61#` | Cek kalau nggak dijawab |
+| `*#62#` | Cek kalau HP mati / nggak ada sinyal |
+| `*#67#` | Cek kalau lagi sibuk |
+| `*#004#` | Cek semua pengalihan bersyarat sekaligus |
+| `*#002#` | Cek semua pengalihan |
+| `##002#` | **Hapus semua pengalihan** |
 | `*#43#` | Cek call waiting |
-| `*43#` / `#43#` | Aktifkan / matikan call waiting |
+| `*43#` / `#43#` | Aktifin / matiin call waiting |
 
-**Cek sadap?** `*#21#` → Panggil. Jika *Forwarded* ke nomor asing bukan voicemail operator → `##002#` → Panggil. Lihat juga [umum/01-kode-ussd-mmi-universal.md](../umum/01-kode-ussd-mmi-universal.md).
+**Curiga disadap?** Coba ketik `*#21#` → Panggil. Kalau muncul *Forwarded* ke nomor asing yang bukan voicemail operator → langsung `##002#` → Panggil. Detail lengkapnya ada di [umum/01-kode-ussd-mmi-universal.md](../umum/01-kode-ussd-mmi-universal.md).
 
-[← 05 Jaringan](05-jaringan-seluler.md) | [→ 07 Kode Vendor](07-kode-vendor.md)
+[← Jaringan](05-jaringan-seluler.md) | [Lanjut ke Kode Vendor →](07-kode-vendor.md)

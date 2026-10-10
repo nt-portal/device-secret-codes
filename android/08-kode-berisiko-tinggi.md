@@ -1,15 +1,15 @@
-# Android — Kode Berisiko Tinggi
+# Kode Berisiko Tinggi di Android ⚠️
 
-> ⛔ Jangan coba di HP utama tanpa backup!
+> Bagian ini jangan dicoba iseng di HP utama ya — bisa ngapus data atau bikin bootloop. Pastiin udah backup dulu!
 
-| Kode | Risiko | Dampak |
+| Kode | Risikonya | Dampaknya |
 |---|---|---|
-| `*#*#7780#*#*` | Tinggi | Factory reset (hapus akun & app, bisa sisakan file internal) |
-| `*2767*3855#` | **Kritis** | Format total firmware+storage tanpa konfirmasi (Samsung lama) |
-| `*#0808#` | Sedang | Salah set USB → HP tak terbaca PC |
-| `*#9090#` | Sedang | Salah set diag → bootloop / modem error |
+| `*#*#7780#*#*` | Tinggi | Factory reset — ngapus akun & aplikasi (file internal kadang masih sisa) |
+| `*2767*3855#` | **Kritis** | Format total firmware + storage tanpa konfirmasi (Samsung lama) |
+| `*#0808#` | Sedang | Salah set USB → HP nggak kebaca di PC |
+| `*#9090#` | Sedang | Salah set diag → bisa bootloop / modem error |
 | `*#2263#` | Sedang | Salah kunci band → sinyal hilang |
 
-Keluar dari menu asing: **Back/Home** tanpa tap *Apply/Format/Reset*.
+Kalau nggak sengaja masuk menu aneh, langsung tekan **Back/Home** aja — jangan tap *Apply/Format/Reset*.
 
-[← 07 Vendor](07-kode-vendor.md) | [→ iOS](../ios/README.md) | [→ Umum](../umum/README.md)
+[← Kode Vendor](07-kode-vendor.md) | [Ke iOS →](../ios/README.md) | [Ke Umum →](../umum/README.md)
