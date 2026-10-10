@@ -4,6 +4,12 @@
 
 > ⚠️ Penting: Tidak semua kode akan berfungsi di setiap perangkat. Keberhasilan tergantung pada merek, versi sistem operasi, dan operator yang digunakan. Beberapa kode juga dapat mengubah pengaturan atau menghapus data, jadi harap digunakan dengan hati-hati.
 
+
+## 👥 Kontributor
+<a href="https://github.com/nt-portal/device-secret-codes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nt-portal/device-secret-codes" />
+</a>
+
 ## ⭐ Baru Ditambahkan
 
 **Dua panduan edukasi baru di dalam repositori ini:**
